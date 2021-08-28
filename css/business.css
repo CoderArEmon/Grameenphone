@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+
+body{
+    font-family: 'Signika', sans-serif;
+}
+/********  Start Slider Section    *********/
+
+#b_slider .carousel-control-next {
+    right: -50px;
+}
+
+#b_slider .carousel-control-prev {
+    left: -50px;
+}
+
+
+/********  End Slider Section    *********/
+
+/******  Start New Section  ********/
+#b_new{
+    padding: 4rem 0;
+}
+#b_new h3{
+    padding: 10px 0 30px 0;
+}
+#b_new p{
+    color: #767676;
+    font-size: 17px;
+}
+.zoom{
+    transform: scale(1);
+    transition: 0.5s ease;
+}
+
+#b_new .card:hover .zoom{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+#b_new .card:hover{
+    border: 1px solid rgb(182, 178, 178);
+}
+
+/******  End New Section  ********/
+
+/******  Start Solution Section  ********/
+#solution{
+    cursor: pointer;
+}
+#solution h3{
+    padding: 10px 0 30px 0;
+}
+#solution span{
+    position: relative;
+    color: #fff;
+    font-size: 35px;
+    bottom: 60px;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px #333;
+}
+#solution img{
+    height: 100%;
+}
+#solution .zoom:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+/******  End Solution Section  ********/
+
+/******  Start Growing Section  ********/
+#b_grow{
+    padding: 3rem 0;
+}
+#b_grow:hover .zoom{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.grow_cont{
+    padding: 100px 38px;
+}
+/******  End Growing Section  ********/
+
+/******  Start Customer Section  ********/
+#customer{
+    padding: 4rem 0;
+}
+#customer h3{
+    font-size: 42px;
+    padding-bottom: 22px;
+}
+.b-customer .card:hover .zoom{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+/******  End Customer Section  ********/
+
+/******  Start Survey Section  ********/
+#survey{
+    padding: 3rem 0;
+}
+.survey_link{
+    border: 1px solid #4b4949;
+    padding: 8px 18px;
+    color: #000;
+}
+
+.survey_link:hover{
+    border: 1px solid #000;
+}
+
+/******  End Survey Section  ********/
+
+/******  Start Share Section  ********/
+#share p{
+    font-size: 21px;
+    color: #1a1a1a;
+    font-weight: 300;
+}
+
+#share span i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #4b4949;
+    border-radius: 50px;
+    background-color: #fff;
+    padding-top: 10px;
+    margin: 0 10px 70px;
+    cursor: pointer;
+}
+#share span i:hover{
+    border: 1px solid #000;
+}
+/******  End Share Section  ********/

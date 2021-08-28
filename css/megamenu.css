@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#megamenu{
+    overflow: hidden;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.mega_nav{
+    padding-left: 325px;
+}
+#megamenu .mega_nav a{
+    float: left;
+    font-size: 16px;
+    color: #1a1a1a;
+    text-align: center;
+    margin: 0 28px;
+    padding: 14px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+#megamenu .d{
+    float: left;
+    overflow: hidden;
+}
+
+#megamenu .d .d-btn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color:#1a1a1a;
+    margin: 2px 28px;
+    padding: 14px 0;
+    background: inherit;
+    text-transform: uppercase;
+}
+#megamenu .mega_nav a:hover, #megamenu .d:hover .d-btn{
+    border-bottom: 2px solid #19aaf8;
+}
+
+#megamenu .d-content{
+    display: none;
+    position: absolute;
+    background: #f9f9f9;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+}
+#megamenu .d:hover .d-content{
+    display: block;
+}
+#megamenu .column{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background: #fff;
+}
+#megamenu .column a{
+    display: block;
+    float: none;
+    color: #eee;
+    text-align: left;
+}
+
+#megamenu .column .sub_link{
+    color: #1a1a1a;
+    font-weight: 500;
+    padding: 6px 0;
+    transition: 0.2s;
+}
+#megamenu .column .sub_link:hover{
+    border-bottom: 0;
+    background-color: #fff;
+    color: #19aaf8;
+}
+
+#megamenu .column a:hover{
+    color: #fff;
+    background: #373737;
+}
+
+

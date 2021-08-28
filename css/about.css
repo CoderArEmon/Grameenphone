@@ -1,0 +1,135 @@
+/*****   Start Service Section    *********/
+#a_service span{
+    font-size: 28px;
+    padding-left: 15px;
+    position: relative;
+    top: 5px;
+}
+#a_service .s_item{
+    border-bottom: 1px solid #808080;
+    padding: 20px 0;
+    margin: 0 56px;
+    cursor: pointer;
+}
+
+
+/*****   End Service Section    *********/
+
+/****   Start Info Section    *********/
+#a_info{
+    padding: 48px 0 35px;
+}
+#a_info h5{
+    font-size: 25px;
+    color: #1a1a1a;
+}
+
+#a_info p{
+    font-size: 18px;
+    color: #767676;
+}
+#a_info i{
+    position: relative;
+    top: 3px;
+    left: 8px;
+    font-size: 15px;
+}
+#a_info .card{
+    cursor: pointer;
+}
+#a_info .card:hover{
+    box-shadow: 0 2px 6px rgba(0,0,0,0.50);
+}
+
+#a_info .card:hover .zoom{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+#a_info .media:hover .zoom{
+    transform: scale(1.1);
+    opacity: 0.8;    
+}
+#a_info .media_cont{
+    padding: 100px 38px;
+}
+/*****   End Info Section    *********/
+
+/****   Start Career Section    *********/
+#career{
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 390px;
+    margin-bottom: 60px;
+}
+#career .career_cont{
+    width: 340px;
+    height: 161px;
+    background-color: #fff;
+    padding: 25px;
+    position: relative;
+    bottom: 0;
+    top: 229px;
+    left: 34px;
+}
+#career i{
+    position: relative;
+    top: 3px;
+    left: 8px;
+    font-size: 15px;
+}
+/*****   End Career Section    *********/
+
+/****   Start More Section    *********/
+#more{
+    padding: 20px 0 100px;
+}
+#more h3{
+    padding-bottom: 40px;
+}
+#more h4{
+    font-size: 20px;
+    padding: 20px 0 4px;
+}
+#more p{
+    font-size: 18px;
+    color: #767676;
+}
+#more i{
+    position: relative;
+    top: 3px;
+    left: 8px;
+    font-size: 15px;
+}
+/*****   End More Section    *********/
+
+/****   Start Package Section    *********/
+#package{
+    background-color: #007ad0;
+}
+#package h4{
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+    padding: 65px 0 35px 0;
+}
+#package .p_link1{
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    padding: 12px 22px;
+    position: relative;
+    bottom: 52px;
+    margin: 0 12px 0 40px;
+}
+
+#package .p_link2{
+    border: 1px solid #fff;
+    color: #007ad0;
+    background-color: #fff;
+    font-size: 20px;
+    padding: 12px 22px;
+    position: relative;
+    bottom: 52px;
+}
+/*****   End Package Section    *********/
